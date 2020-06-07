@@ -64,12 +64,16 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-share-apple-music" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/yztao.me/2020/06/07/hello-world/" class="article-date">
-  <time datetime="2020-06-07T10:00:58.821Z" itemprop="datePublished">2020-06-07</time>
+    <a href="/yztao.me/2018/10/17/share-apple-music/" class="article-date">
+  <time datetime="2018-10-17T00:00:00.000Z" itemprop="datePublished">2018-10-17</time>
 </a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/yztao.me/categories/%E6%8A%80%E6%9C%AF%E5%AE%85/">技术宅</a>
+  </div>
+
   </div>
   <div class="article-inner">
     
@@ -78,7 +82,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/yztao.me/2020/06/07/hello-world/">Hello World</a>
+      <a class="article-title" href="/yztao.me/2018/10/17/share-apple-music/">用 Apple Music 来推荐喜欢的歌曲吧</a>
     </h1>
   
 
@@ -86,24 +90,111 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+        <p>闲来无事逛 Apple 官网，莫名看到了一个叫 MusicKit 的屌屌的东西，貌似可以在第三方 App 和网站上植入 Apple Music 内的歌曲！然后我硬着头皮看了 MusicKit 的 Keynote 演讲后，觉得还是算了不要瞎折腾了。</p>
+<p>但是！我在角落里看到了介绍能简单的将 Apple Music 中的音乐分享到网站上的方式！真的是一键分享哦！</p>
+<p>具体操作是打开 iTunes 中的 Apple Music，选择你想要分享的专辑或者歌曲，点击右侧的三个点选择“分享专辑…”，再选择“&lt;/&gt; 拷贝嵌入代码”。<br><img src="https://hanatao-1254384827.cos.ap-shanghai.myqcloud.com/share_apple_music.png" alt=""></p>
+<p>复制下来的代码是这个样子的：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">allow</span>=<span class="string">"autoplay *; encrypted-media *;"</span> <span class="attr">frameborder</span>=<span class="string">"0"</span> <span class="attr">height</span>=<span class="string">"450"</span> <span class="attr">style</span>=<span class="string">"width:100%;max-width:660px;overflow:hidden;background:transparent;"</span> <span class="attr">sandbox</span>=<span class="string">"allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"</span> <span class="attr">src</span>=<span class="string">"https://embed.music.apple.com/cn/album/o/41864569"</span>&gt;</span><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>将其直接粘贴到文章中就行啦！HTML 会自动将其转换为播放界面的，就像这个样子！</p>
+<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/cn/album/o/41864569"></iframe>
 
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<p>播放界面一如既往的 Apple 风格，蛮好看的，还会根据显示界面做自适应。然而貌似未登录的话每首歌曲只能播放 30 秒的样子😂，真的只能作为歌曲推荐啊！右上角登录 Apple ID 以后就可以试听全曲了，当然仅限于订阅了 Apple Music 的用户了。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://hanatao.github.io/yztao.me/2020/06/07/hello-world/" data-id="ckb4wc91f0000xssg4ws6ai9l" class="article-share-link">Share</a>
+      <a data-url="https://hanatao.github.io/yztao.me/2018/10/17/share-apple-music/" data-id="ckb4wkfu1000nzomg98anf7kj" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/yztao.me/tags/Apple-Music/" rel="tag">Apple Music</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-Photon" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/yztao.me/2018/06/05/Photon/" class="article-date">
+  <time datetime="2018-06-05T00:00:00.000Z" itemprop="datePublished">2018-06-05</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/yztao.me/categories/%E6%8A%80%E6%9C%AF%E5%AE%85/">技术宅</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/yztao.me/2018/06/05/Photon/">不想每次装机都要配置一遍 aria 2 吗？用 Photon 吧！</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>在很久以前我写过关于 aria 2 的部署文章，但是在写文之后，我换了几台电脑，看着自己写的步骤却一点想要再次部署 aria 2 的动力也没有。究其原因还是因为 aria 2 的部署及配置方式还是较为复杂了吧。</p>
+<p>还好我在最近发现了一个神器，叫做 Photon。它是一款基于 aria 2 的下载软件，支持 HTTP/HTTPS，磁力链，BT 和 Metalink 等多种下载协议，有一个简单够用的图形界面，支持 Windows 和 Mac。最重要的是，无需配置，下载即用。</p>
+<p><img src="https://hanatao-1254384827.cos.ap-shanghai.myqcloud.com/photon.png" alt=""></p>
+<p>这是一个开源软件，部署在 Github 上，下面是项目地址 ➡️ <a href="https://github.com/alanzhangzm/Photon" target="_blank" rel="noopener" title="Github">Github</a>。</p>
+<p>Enjoy！</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://hanatao.github.io/yztao.me/2018/06/05/Photon/" data-id="ckb4wkft80002zomg91xn3bd3" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/yztao.me/tags/aria2/" rel="tag">aria2</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-zen-of-python" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/yztao.me/2018/05/21/zen-of-python/" class="article-date">
+  <time datetime="2018-05-21T00:00:00.000Z" itemprop="datePublished">2018-05-21</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/yztao.me/categories/%E6%8A%80%E6%9C%AF%E5%AE%85/">技术宅</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/yztao.me/2018/05/21/zen-of-python/">The Zen of Python, by Tim Peters</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Beautiful is better than ugly.<br>Explicit is better than implicit.<br>Simple is better than complex.<br>Complex is better than complicated.<br>Flat is better than nested.<br>Sparse is better than dense.<br>Readability counts.<br>Special cases aren’t special enough to break the rules.<br>Although practicality beats purity.<br>Errors should never pass silently.<br>Unless explicitly silenced.<br>In the face of ambiguity, refuse the temptation to guess.<br>There should be one– and preferably only one –obvious way to do it.<br>Although that way may not be obvious at first unless you’re Dutch.<br>Now is better than never.<br>Although never is often better than <em>right</em> now.<br>If the implementation is hard to explain, it’s a bad idea.<br>If the implementation is easy to explain, it may be a good idea.<br>Namespaces are one honking great idea – let’s do more of those!</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://hanatao.github.io/yztao.me/2018/05/21/zen-of-python/" data-id="ckb4wkfu4000tzomg0uwj6xpw" class="article-share-link">Share</a>
       
       
     </footer>
@@ -113,25 +204,373 @@
 
 
   
+    <article id="post-on-children" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/yztao.me/2018/05/13/on-children/" class="article-date">
+  <time datetime="2018-05-13T00:00:00.000Z" itemprop="datePublished">2018-05-13</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/yztao.me/categories/%E7%88%B1%E7%94%9F%E6%B4%BB/">爱生活</a>
+  </div>
 
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/yztao.me/2018/05/13/on-children/">纪伯伦《致孩子》</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>你的儿女，<br>其实不是你的儿女，他们是生命对于自身渴望而诞生的孩子；<br>他们在你身旁，却不属于你；<br>你可以给予他们你的爱，<br>而不是你的想法，因为他们有自己的思想；<br>你可以庇护他们的身体，<br>而不是他们的灵魂，因为他们的灵魂属于你做梦也无法到达的明天；<br>你可以拼尽全力，<br>变得像他们一样，而不是让他们和你一样，<br>因为生命不会后退，更不会在过去停留。<br>你是弓，<br>儿女是从你那里射出的箭，<br>弓箭手望着未来之路上的靶，<br>他用尽全力将你拉开，让箭射的又快又远；<br>怀着快乐的心情，在弓箭手的手中弯曲吧！<br>因为他爱一路飞翔的箭，更爱无比沉稳的弓。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://hanatao.github.io/yztao.me/2018/05/13/on-children/" data-id="ckb4wkftw000fzomg7lvt77nq" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-happy-wang-year" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/yztao.me/2018/02/16/happy-wang-year/" class="article-date">
+  <time datetime="2018-02-16T00:00:00.000Z" itemprop="datePublished">2018-02-16</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/yztao.me/categories/%E7%88%B1%E7%94%9F%E6%B4%BB/">爱生活</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/yztao.me/2018/02/16/happy-wang-year/">戊戌年快乐🐶</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><img src="https://hanatao-1254384827.cos.ap-shanghai.myqcloud.com/happy-wang-year.jpeg" alt=""></p>
+<p>今天正月初一，狗年的第一天。作为一个银行狗，忙碌的元旦并不能带给我们跨入新的一年的清新感觉，必须要是春节的空闲才能够让我们真真切切地感受到又过去了一年啊。</p>
+<p>前两天小年夜的时候，上面终于把我们四季度的奖金以及年终奖给发了下来。靠着这年终奖我终于是还清了身上所有的债务。狗年到了，再过几个月家里会多一只小狗狗出来。希望今年我能够升职加薪，尽量多存点钱吧，毕竟今年的开销可以预见的会大增许多。</p>
+<p>新年快乐啦🎈🍾️🎊🎆🎉</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://hanatao.github.io/yztao.me/2018/02/16/happy-wang-year/" data-id="ckb4wkftu000bzomgbr5t9btp" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-papa" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/yztao.me/2017/10/13/papa/" class="article-date">
+  <time datetime="2017-10-13T00:00:00.000Z" itemprop="datePublished">2017-10-13</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/yztao.me/categories/%E7%88%B1%E7%94%9F%E6%B4%BB/">爱生活</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/yztao.me/2017/10/13/papa/">当一个爸爸的代价是什么</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><strong>我要当爸爸啦！</strong></p>
+        
+          <p class="article-more-link">
+            <a href="/yztao.me/2017/10/13/papa/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://hanatao.github.io/yztao.me/2017/10/13/papa/" data-id="ckb4wkftz000izomgc1qrhqn3" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-video-test" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/yztao.me/2017/10/02/video-test/" class="article-date">
+  <time datetime="2017-10-02T00:00:00.000Z" itemprop="datePublished">2017-10-02</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/yztao.me/categories/%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/">网站相关</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/yztao.me/2017/10/02/video-test/">测试一下视频外链</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><div class="video"><video poster="https://hanatao-1254384827.cos.ap-shanghai.myqcloud.com/Hypnosis.png" src="https://hanatao-1254384827.cos.ap-shanghai.myqcloud.com/Damien%20Rice%20-%20Hypnosis%20%5BOfficial%20Music%20Video%5D.mp4" controls="controls" width="100%" height="100%" object-fit="fill"></video></div></p>
+
+<br/>
+
+<p>我把视频放在了腾讯云cos里，这样就可以直接通过 HTML5 播放器外链播放了。修改了一下样式使视频能够按16:9的屏幕尺寸自适应博客的边框，感觉最终效果还是可以的。</p>
+<p><del>反正也没人看我的博客。</del> </p>
+<p>视频为私货。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://hanatao.github.io/yztao.me/2017/10/02/video-test/" data-id="ckb4wkfu2000pzomgdk0qeh3s" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-Ulysses-to-Bear" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/yztao.me/2017/09/09/Ulysses-to-Bear/" class="article-date">
+  <time datetime="2017-09-09T00:00:00.000Z" itemprop="datePublished">2017-09-09</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/yztao.me/categories/%E7%88%B1%E7%94%9F%E6%B4%BB/">爱生活</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/yztao.me/2017/09/09/Ulysses-to-Bear/">放弃 Ulysses 后，我投入了 Bear 的怀抱</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>自从购买了 Ulysses 后，我一直将它作为我的主力码字软件在使用。不得不说，Ulysses 是我目前为止使用过的最最趁手的码字软件没有之一。但是！就在最近 Ulysses 更改了它的收费机制，原本一次性买断的收费方式被开发商毫无预兆的改为了订阅制，价格为 <em>26 元每月 或 218 元每年*！虽然说老用户可以得到优惠，但其 *163 元每年</em> 的优惠力度也并不见得很大。最主要的是，它着实伤透了我们全价购买老版本全平台的用户的心啊。</p>
+<p>在 Ulysses 转为订阅制之后，我认真的思考了 Ulysses 在我工作生活中的重要程度，并终于决定放弃 Ulysses ，转投 Bear 的怀抱。</p>
+        
+          <p class="article-more-link">
+            <a href="/yztao.me/2017/09/09/Ulysses-to-Bear/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://hanatao.github.io/yztao.me/2017/09/09/Ulysses-to-Bear/" data-id="ckb4wkftn0005zomgeuxncrrh" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/yztao.me/tags/Bear/" rel="tag">Bear</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/yztao.me/tags/Ulysses/" rel="tag">Ulysses</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-delete-evernote" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/yztao.me/2017/09/06/delete-evernote/" class="article-date">
+  <time datetime="2017-09-06T00:00:00.000Z" itemprop="datePublished">2017-09-06</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/yztao.me/categories/%E7%88%B1%E7%94%9F%E6%B4%BB/">爱生活</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/yztao.me/2017/09/06/delete-evernote/">我清空了自己印象笔记账户里的所有资料</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><img src="https://hanatao-1254384827.cos.ap-shanghai.myqcloud.com/delete-evernote.JPG" alt=""></p>
+<p>我清空了我在印象笔记里收藏的所有文章，同时还解约了印象笔记高级帐户。</p>
+        
+          <p class="article-more-link">
+            <a href="/yztao.me/2017/09/06/delete-evernote/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://hanatao.github.io/yztao.me/2017/09/06/delete-evernote/" data-id="ckb4wkfts000azomgc3cqdhup" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/yztao.me/tags/%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0/" rel="tag">印象笔记</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-AP-AP" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/yztao.me/2017/04/30/AP-AP/" class="article-date">
+  <time datetime="2017-04-30T00:00:00.000Z" itemprop="datePublished">2017-04-30</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/yztao.me/categories/%E6%8A%80%E6%9C%AF%E5%AE%85/">技术宅</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/yztao.me/2017/04/30/AP-AP/">利用旧 AirPort Express 让家里的音响支持 Airplay</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><img src="https://hanatao-1254384827.cos.ap-shanghai.myqcloud.com/ap-ap.jpg" alt=""></p>
+<p>最近家里重新装修，跑到苏宁去买了一堆家电。在搬回来了一台 JBL 的电视回音壁之后，我突然发现老爸老妈经不住店员忽悠买回来的长虹 ChiQ 智能电视竟然没有一个接口支持我的回音壁的！果然是一分价格一分货啊。我尝试着买了个数字音频转光纤的转接器，试图通过电视上的数字音频接口连接我的回音壁的光纤接口。用是能用，但是极其不稳定，经常会失灵。在经过了几个礼拜的煎熬之后，我终于还是放弃了在我的电视上使用这台回音壁了。</p>
+<p>在放弃连接电视使用之后，我暂时将这回音壁当作蓝牙音响使用。但是，音响连接蓝牙的步骤十分繁琐，也不能进行长距离的连接。鉴于家里几乎都是苹果产品，我开始尝试着通过老旧不用的 AirPort Express 让这台回音壁支持 Airplay 。</p>
+        
+          <p class="article-more-link">
+            <a href="/yztao.me/2017/04/30/AP-AP/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://hanatao.github.io/yztao.me/2017/04/30/AP-AP/" data-id="ckb4wkfsu0000zomga8s3clvl" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/yztao.me/tags/AirPort/" rel="tag">AirPort</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/yztao.me/tags/Airplay/" rel="tag">Airplay</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+
+
+  <nav id="page-nav">
+    
+    <span class="page-number current">1</span><a class="page-number" href="/yztao.me/page/2/">2</a><a class="extend next" rel="next" href="/yztao.me/page/2/">Next &amp;raquo;</a>
+  </nav>
 
 </section>
         
           <aside id="sidebar">
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/yztao.me/categories/%E6%8A%80%E6%9C%AF%E5%AE%85/">技术宅</a></li><li class="category-list-item"><a class="category-list-link" href="/yztao.me/categories/%E7%88%B1%E7%94%9F%E6%B4%BB/">爱生活</a></li><li class="category-list-item"><a class="category-list-link" href="/yztao.me/categories/%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/">网站相关</a></li><li class="category-list-item"><a class="category-list-link" href="/yztao.me/categories/%E9%93%B6%E8%A1%8C%E7%8B%97/">银行狗</a></li></ul>
+    </div>
+  </div>
+
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/yztao.me/tags/AirPort/" rel="tag">AirPort</a></li><li class="tag-list-item"><a class="tag-list-link" href="/yztao.me/tags/Airplay/" rel="tag">Airplay</a></li><li class="tag-list-item"><a class="tag-list-link" href="/yztao.me/tags/Apple-Music/" rel="tag">Apple Music</a></li><li class="tag-list-item"><a class="tag-list-link" href="/yztao.me/tags/Bear/" rel="tag">Bear</a></li><li class="tag-list-item"><a class="tag-list-link" href="/yztao.me/tags/Ulysses/" rel="tag">Ulysses</a></li><li class="tag-list-item"><a class="tag-list-link" href="/yztao.me/tags/aria2/" rel="tag">aria2</a></li><li class="tag-list-item"><a class="tag-list-link" href="/yztao.me/tags/%E4%BF%A1%E7%94%A8%E5%8D%A1/" rel="tag">信用卡</a></li><li class="tag-list-item"><a class="tag-list-link" href="/yztao.me/tags/%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0/" rel="tag">印象笔记</a></li></ul>
+    </div>
+  </div>
+
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/yztao.me/tags/AirPort/" style="font-size: 10px;">AirPort</a> <a href="/yztao.me/tags/Airplay/" style="font-size: 10px;">Airplay</a> <a href="/yztao.me/tags/Apple-Music/" style="font-size: 10px;">Apple Music</a> <a href="/yztao.me/tags/Bear/" style="font-size: 10px;">Bear</a> <a href="/yztao.me/tags/Ulysses/" style="font-size: 10px;">Ulysses</a> <a href="/yztao.me/tags/aria2/" style="font-size: 20px;">aria2</a> <a href="/yztao.me/tags/%E4%BF%A1%E7%94%A8%E5%8D%A1/" style="font-size: 10px;">信用卡</a> <a href="/yztao.me/tags/%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0/" style="font-size: 10px;">印象笔记</a>
+    </div>
+  </div>
+
   
     
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/yztao.me/archives/2020/06/">June 2020</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/yztao.me/archives/2018/10/">October 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/yztao.me/archives/2018/06/">June 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/yztao.me/archives/2018/05/">May 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/yztao.me/archives/2018/02/">February 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/yztao.me/archives/2017/10/">October 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/yztao.me/archives/2017/09/">September 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/yztao.me/archives/2017/04/">April 2017</a></li></ul>
     </div>
   </div>
 
@@ -144,7 +583,23 @@
       <ul>
         
           <li>
-            <a href="/yztao.me/2020/06/07/hello-world/">Hello World</a>
+            <a href="/yztao.me/2018/10/17/share-apple-music/">用 Apple Music 来推荐喜欢的歌曲吧</a>
+          </li>
+        
+          <li>
+            <a href="/yztao.me/2018/06/05/Photon/">不想每次装机都要配置一遍 aria 2 吗？用 Photon 吧！</a>
+          </li>
+        
+          <li>
+            <a href="/yztao.me/2018/05/21/zen-of-python/">The Zen of Python, by Tim Peters</a>
+          </li>
+        
+          <li>
+            <a href="/yztao.me/2018/05/13/on-children/">纪伯伦《致孩子》</a>
+          </li>
+        
+          <li>
+            <a href="/yztao.me/2018/02/16/happy-wang-year/">戊戌年快乐🐶</a>
           </li>
         
       </ul>
