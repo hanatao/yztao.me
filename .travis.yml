@@ -6,9 +6,9 @@ cache: npm
 branches:
   only:
     - master # build master branch only
-# install:
-#   - npm install hexo-renderer-pug --save
-#   - npm install hexo-renderer-sass --save
+install:
+  - npm install hexo-renderer-pug --save
+  - npm install hexo-renderer-sass --save
 script:
   - hexo generate # generate static files
 deploy:
