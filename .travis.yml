@@ -1,3 +1,4 @@
+sudo: false
 language: node_js
 node_js:
   - 10 # use nodejs v10 LTS
@@ -5,14 +6,11 @@ cache: npm
 branches:
   only:
     - master # build master branch only
-install:
-  - npm install hexo-renderer-pug --save
-  - npm install hexo-renderer-sass --save
 script:
   - hexo generate # generate static files
 deploy:
   provider: pages
-  cleanup: false
+  skip-cleanup: true
   github-token: $GH_TOKEN
   keep-history: true
   on:
