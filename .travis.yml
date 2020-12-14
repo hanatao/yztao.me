@@ -9,6 +9,7 @@ branches:
 install:
   - npm install hexo-renderer-pug --save
   - npm install hexo-renderer-sass --save
+  - npm install hexo-generator-feed --save
 script:
   - hexo generate # generate static files
 deploy:
