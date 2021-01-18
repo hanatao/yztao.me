@@ -98,7 +98,9 @@ theme: maupassant
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:hanatao/yztao.me.git #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+  branch: gh-pages
 
 # RSSFeed
 ## Github: https://github.com/hexojs/hexo-generator-feed
