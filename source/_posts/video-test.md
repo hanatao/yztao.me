@@ -5,7 +5,7 @@ categories:
 - 网站相关
 ---
 
-<p><div class="video"><video poster="https://hanatao-1254384827.cos.ap-shanghai.myqcloud.com/Hypnosis.png" src="https://hanatao-1254384827.cos.ap-shanghai.myqcloud.com/Damien%20Rice%20-%20Hypnosis%20%5BOfficial%20Music%20Video%5D.mp4" controls="controls" width="100%" height="100%" object-fit="fill"></video></div></p>
+<p><div class="video"><video poster="https://hanatao-1254384827.cos.ap-shanghai.myqcloud.com/Hypnosis.png" src="https://img.yztao.me/blog/Damien%20Rice%20-%20Hypnosis%20%5BOfficial%20Music%20Video%5D.mp4" controls="controls" width="100%" height="100%" object-fit="fill"></video></div></p>
 
 <br/>
 

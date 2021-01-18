@@ -16,7 +16,7 @@ categories:
 
 ## Ulysses
 
-![](https://hanatao-1254384827.cos.ap-shanghai.myqcloud.com/ulysses-to-bear-1.JPG)
+![](https://img.yztao.me/blog/ulysses-to-bear-1.JPG)
 
 Ulysses 是一款 Markdown 写作工具，曾获 2016 年苹果设计大奖和 App Store 年度应用。对于我个人使用而言，它有着如下的几个特点吸引着我：
 
@@ -35,13 +35,13 @@ Ulysses 是一款 Markdown 写作工具，曾获 2016 年苹果设计大奖和 A
 
 ## Bear
 
-![](https://hanatao-1254384827.cos.ap-shanghai.myqcloud.com/ulysses-to-bear-2.PNG)
+![](https://img.yztao.me/blog/ulysses-to-bear-2.PNG)
 
 一开始说让我使用 Bear ，我是拒绝的。毕竟在使用了 Ulysses 这样优秀的工具之后，再去使用任何其他的工具我都会不自觉的将其与 Ulysses 相比较，最后沮丧的发现还是 Ulysses 好啊！然而，当我怀着无比忐忑的心情去试用了 Bear 之后，我发现它与 Ulysses 是如此的相似，但在使用功能上却又有着极大的不同。
 
 首先，Bear 绝不能被当作一个单纯的写作应用。较之与 Ulysses ，它在写作方面的功能性相差无几，仅缺少了自定义界面、导出文档自定义样式排版等功能。要说最需要习惯的功能差异，就是没有文件夹功能了，但是 Bear 又自带了强大的标签功能与文章间链接功能，让我可以轻松的在一个页面中罗列起与之相关的所有文章。因此在使用过程中，它不但被我用来写作，它也可以作为一个笔记应用，收集、整理网络上的资料，间接代替了部分印象笔记的功能。
 
-![](https://hanatao-1254384827.cos.ap-shanghai.myqcloud.com/ulysses-to-bear-3.JPG)
+![](https://img.yztao.me/blog/ulysses-to-bear-3.JPG)
 
 我会在之后单独写一篇文章来介绍一下 Bear 的各类功能和运用。现在我已经设法将 Ulysses 的文章全部导出到了 Bear 中，并享受着利用新工具来码字的快感。
 

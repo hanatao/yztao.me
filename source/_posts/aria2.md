@@ -7,7 +7,7 @@ categories:
 - 技术宅
 ---
 
-![](https://hanatao-1254384827.cos.ap-shanghai.myqcloud.com/aria2-1.png)
+![](https://img.yztao.me/blog/aria2-1.png)
 
 这篇文章写作的目的是为了详细记录我部署 aria2 作为我的 MacBook Pro 的主要下载工具的过程，以作为备份。当然有跟我有同样需求的网友也可以按照步骤进行部署工作。
 
@@ -103,11 +103,11 @@ aria2c --conf-path= /Users/xxx/Documents/aria2/aria2.conf
 
 通过上面的步骤，我们的 aria2 就已经安装成功并部署完毕，在后台静静地运行了。但是这又有一个问题，我们很难直观的进行文件的下载、查看下载进程，并对其进行基本的设置，这时候我们就需要为 aria2 套用一套管理界面了。我所使用的管理界面是 [Aria2 WebUI](https://github.com/ziahamza/webui-aria2) 。点击 [Aria2 WebUI](https://github.com/ziahamza/webui-aria2) 进入它的 GitHub 页面，点击右侧的 Clone or Download ，在弹出的界面里点击 Download ZIP ，我们就能够把整个 Aria2 WebUI 打包下载下来了。
 
-![](https://hanatao-1254384827.cos.ap-shanghai.myqcloud.com/aria2-2.png)
+![](https://img.yztao.me/blog/aria2-2.png)
 
 将下载下来的 ZIP 文件解压至 `/Users/xxx/Documents/aria2` ，会在 `aria2` 文件夹中生成一个名为 `webui-aria2-master` 的文件夹，打开文件夹中的 `index.html` ，我们就能在浏览器中显示 aria2 的UI界面了。
 
-![](https://hanatao-1254384827.cos.ap-shanghai.myqcloud.com/aria2-3.png)
+![](https://img.yztao.me/blog/aria2-3.png)
 
 ### 配置 aria2 为一键启动
 

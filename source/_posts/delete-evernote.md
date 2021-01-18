@@ -7,7 +7,7 @@ tags:
 - 印象笔记
 ---
 
-![](https://hanatao-1254384827.cos.ap-shanghai.myqcloud.com/delete-evernote.JPG)
+![](https://img.yztao.me/blog/delete-evernote.JPG)
 
 我清空了我在印象笔记里收藏的所有文章，同时还解约了印象笔记高级帐户。
 

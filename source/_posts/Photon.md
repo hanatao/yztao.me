@@ -11,7 +11,7 @@ tags:
 
 还好我在最近发现了一个神器，叫做 Photon。它是一款基于 aria 2 的下载软件，支持 HTTP/HTTPS，磁力链，BT 和 Metalink 等多种下载协议，有一个简单够用的图形界面，支持 Windows 和 Mac。最重要的是，无需配置，下载即用。
 
-![](https://hanatao-1254384827.cos.ap-shanghai.myqcloud.com/photon.png)
+![](https://img.yztao.me/blog/photon.png)
 
 这是一个开源软件，部署在 Github 上，下面是项目地址 ➡️ [Github](https://github.com/alanzhangzm/Photon "Github")。
 

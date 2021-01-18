@@ -5,7 +5,7 @@ categories:
 - 爱生活
 ---
 
-![](https://hanatao-1254384827.cos.ap-shanghai.myqcloud.com/happy-wang-year.jpeg)
+![](https://img.yztao.me/blog/happy-wang-year.jpeg)
 
 今天正月初一，狗年的第一天。作为一个银行狗，忙碌的元旦并不能带给我们跨入新的一年的清新感觉，必须要是春节的空闲才能够让我们真真切切地感受到又过去了一年啊。
 

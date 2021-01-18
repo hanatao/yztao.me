@@ -19,7 +19,7 @@ categories:
 
 啥啥啥小娃娃的名字？
 
-![](https://hanatao-1254384827.cos.ap-shanghai.myqcloud.com/papa.jpg)
+![](https://img.yztao.me/blog/papa.jpg)
 
 ~~开玩笑的~~
 

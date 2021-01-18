@@ -12,7 +12,7 @@ tags:
 但是！我在角落里看到了介绍能简单的将 Apple Music 中的音乐分享到网站上的方式！真的是一键分享哦！
 
 具体操作是打开 iTunes 中的 Apple Music，选择你想要分享的专辑或者歌曲，点击右侧的三个点选择“分享专辑…”，再选择“\</\> 拷贝嵌入代码”。
-![](https://hanatao-1254384827.cos.ap-shanghai.myqcloud.com/share_apple_music.png)
+![](https://img.yztao.me/blog/share_apple_music.png)
 
 复制下来的代码是这个样子的：
 
